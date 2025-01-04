@@ -15,8 +15,8 @@ import re
 
 
 wake_word = 'Raja'
-groq_client=Groq(api_key="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")
-genai.configure(api_key='AIzaSyBiDZ9c0AqL2eBkipjATODBHXpQnmTfS98')
+groq_client=Groq(api_key="API")
+genai.configure(api_key="API)
 web_cam = cv2.VideoCapture(0)
 
 sys_msg =(
